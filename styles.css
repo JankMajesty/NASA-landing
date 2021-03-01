@@ -1,3 +1,52 @@
 body {
-    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+ul.no-bullets {
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margins */
+      }
+
+.site-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("galaxybrain2.jpg");
+    height: 450px;
+    width: 850px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    font-weight: bold;
+    font-size: 62px;
+}
+
+h3{font-weight: bold;
+    
+}
+
+.main-content {
+    display: flex;
+    height: 324px;
+    width: 850px;
+    background-color: #E6E6E6;
+    justify-content: space-around;
+    }
+
+    .item {
+    width: 270px;
+    flex: column;
+    margin: 20px;
+    justify-content: flext-start;
+
+}
+
+#textboxid
+{
+    height:100px;
 }
